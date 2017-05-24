@@ -6,10 +6,12 @@ namespace EfCoreDemo
     {
         static void Main(string[] args)
         {
-            BlogDemo.Setup();
-            BlogDemo.Execute();
+            // BlogDemo.Setup();
+            // BlogDemo.Execute();
             
-            CustomerDemo.Execute();
+            // CustomerDemo.Execute();
+
+            FuncDemo.Execute();
 
             Console.WriteLine();
             Console.WriteLine("Done.");

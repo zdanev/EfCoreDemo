@@ -1,9 +1,0 @@
-C:\dev\EfCoreDemo\bin\Debug\netcoreapp2.0\EfCoreDemo.deps.json
-C:\dev\EfCoreDemo\bin\Debug\netcoreapp2.0\EfCoreDemo.runtimeconfig.json
-C:\dev\EfCoreDemo\bin\Debug\netcoreapp2.0\EfCoreDemo.runtimeconfig.dev.json
-C:\dev\EfCoreDemo\bin\Debug\netcoreapp2.0\EfCoreDemo.dll
-C:\dev\EfCoreDemo\bin\Debug\netcoreapp2.0\EfCoreDemo.pdb
-C:\dev\EfCoreDemo\obj\Debug\netcoreapp2.0\EfCoreDemo.csproj.CoreCompileInputs.cache
-C:\dev\EfCoreDemo\obj\Debug\netcoreapp2.0\EfCoreDemo.AssemblyInfo.cs
-C:\dev\EfCoreDemo\obj\Debug\netcoreapp2.0\EfCoreDemo.dll
-C:\dev\EfCoreDemo\obj\Debug\netcoreapp2.0\EfCoreDemo.pdb

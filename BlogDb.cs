@@ -58,14 +58,6 @@ namespace EfCoreDemo
                 .HasQueryFilter(p => !EF.Property<bool>(p, "IsDeleted"));
         }
 
-        public IEnumerable<Blog> FindBlog(string term)
-        {
-            var likeExpr = $"%{term}%";
-
-            // return Blogs.FromSql($"SELECT * FROM Blogs WHERE Url LIKE {likeExpr}");
-            return Blogs.Where(b => EF.Functions.Like(b.Url, likeExpr));
-        }
-
         public override int SaveChanges()
         {
             ChangeTracker.DetectChanges();
