@@ -51,15 +51,14 @@ namespace EfCoreDemo
         {
             Console.WriteLine("Query with SQL...");
             ShowBlogs(FindBlogSql("cat"));
-            Console.WriteLine();
 
+            Console.WriteLine();
             Console.WriteLine("Query with LIKE function...");
             ShowBlogs(FindBlogFunc("cat"));
-            Console.WriteLine();
 
+            Console.WriteLine();
             Console.WriteLine("Compiled Query with LIKE function...");
             ShowBlogs(FindBlogCompiled("cat"));
-            Console.WriteLine();
         }
     }
 }
